@@ -1,12 +1,12 @@
 {
   "order": 0,
   "index_patterns": [
-    "wazuh-alerts-4.x-*",
-    "wazuh-archives-4.x-*"
+    "security-alerts-4.x-*",
+    "security-archives-4.x-*"
   ],
   "settings": {
     "index.refresh_interval": "5s",
-    "index.number_of_shards": "3",
+    "index.number_of_shards": "1",
     "index.number_of_replicas": "0",
     "index.auto_expand_replicas": "0-1",
     "index.mapping.total_fields.limit": 10000,
