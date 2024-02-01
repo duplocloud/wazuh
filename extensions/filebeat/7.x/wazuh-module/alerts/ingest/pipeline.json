@@ -101,7 +101,7 @@
     {
       "set": {
         "field": "_index",
-        "value": "wazuh-alerts"
+        "value": "security-alerts"
       }
     },
     { "remove": { "field": "message", "ignore_missing": true, "ignore_failure": true } },
